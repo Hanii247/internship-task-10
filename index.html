@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechNova - Innovating the Future</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- AOS Animation Library (Optional) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</head>
+<body>
+  <!-- Header / Hero Section -->
+  <header class="hero" id="home">
+   <nav>
+  <div class="logo">
+    <a href="#hero">
+      <img src="assets/logo.png" alt="Startup Logo" />
+      <span>TechNova</span>
+    </a>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#testimonials">Testimonials</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button id="theme-toggle"><i class="fas fa-adjust"></i></button>
+</nav>
+
+
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Innovating the Future</h1>
+      <p>Empowering businesses with cutting-edge technology solutions.</p>
+      <a href="#features" class="cta-btn">Explore Features</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <h2 data-aos="fade-down">Our Features</h2>
+    <div class="feature-container">
+      <div class="feature-card" data-aos="zoom-in">
+        <i class="fa-solid fa-cloud"></i>
+        <h3>Cloud Solutions</h3>
+        <p>Scalable and secure cloud-based services tailored to your needs.</p>
+      </div>
+      <div class="feature-card" data-aos="zoom-in" data-aos-delay="100">
+        <i class="fa-solid fa-lock"></i>
+        <h3>Data Security</h3>
+        <p>Advanced encryption and protection for your critical data.</p>
+      </div>
+      <div class="feature-card" data-aos="zoom-in" data-aos-delay="200">
+        <i class="fa-solid fa-robot"></i>
+        <h3>AI Integration</h3>
+        <p>Smart automation and AI-driven solutions for efficiency.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-content" data-aos="fade-right">
+      <h2>About Us</h2>
+      <p>
+        TechNova is a forward-thinking startup dedicated to building innovative 
+        software solutions that transform businesses. We aim to bring simplicity, 
+        security, and intelligence to technology for everyone.
+      </p>
+    </div>
+    <div class="about-img" data-aos="fade-left">
+      <img src="assets/About.jpg" alt="About TechNova">
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <h2 data-aos="fade-down">What Our Clients Say</h2>
+    <div class="testimonial-container">
+      <div class="testimonial" data-aos="flip-left">
+        <img src="assets/User1.jpg" alt="Sarah" class="avatar">
+        <p>"TechNova transformed our workflow! Highly recommend."</p>
+        <span>- Sarah, Startup Founder</span>
+      </div>
+      <div class="testimonial" data-aos="flip-up">
+        <img src="assets/User2.jpg" alt="James" class="avatar">
+        <p>"Secure, reliable, and innovative solutions. Love it!"</p>
+        <span>- James, CEO</span>
+      </div>
+      <div class="testimonial" data-aos="flip-right">
+        <img src="assets/User3.jpg" alt="Emily" class="avatar">
+        <p>"Amazing support team and great design. Truly impressed!"</p>
+        <span>- Emily, Product Manager</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2 data-aos="fade-up">Get in Touch</h2>
+    <form class="contact-form" data-aos="zoom-in">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="socials">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <p>© 2025 TechNova. All rights reserved.</p>
+  </footer>
+
+  <script>
+    AOS.init(); // Initialize AOS animations
+  </script>
+</body>
+</html>
